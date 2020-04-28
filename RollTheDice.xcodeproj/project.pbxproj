@@ -13,6 +13,9 @@
 		40350994242688ED00ABA53B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40350993242688ED00ABA53B /* Assets.xcassets */; };
 		40350997242688ED00ABA53B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40350996242688ED00ABA53B /* Preview Assets.xcassets */; };
 		4035099A242688ED00ABA53B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40350998242688ED00ABA53B /* LaunchScreen.storyboard */; };
+		403509B02426A84400ABA53B /* BungeeShade-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 403509AF2426A84400ABA53B /* BungeeShade-Regular.ttf */; };
+		403509B32426A85B00ABA53B /* Monoton-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 403509B12426A85B00ABA53B /* Monoton-Regular.ttf */; };
+		403509B42426A85B00ABA53B /* Chango-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 403509B22426A85B00ABA53B /* Chango-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		40350996242688ED00ABA53B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		40350999242688ED00ABA53B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4035099B242688ED00ABA53B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		403509AF2426A84400ABA53B /* BungeeShade-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BungeeShade-Regular.ttf"; sourceTree = "<group>"; };
+		403509B12426A85B00ABA53B /* Monoton-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Monoton-Regular.ttf"; sourceTree = "<group>"; };
+		403509B22426A85B00ABA53B /* Chango-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chango-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				4035098D242688EB00ABA53B /* AppDelegate.swift */,
+				403509A42426A36B00ABA53B /* Fonts */,
 				4035098F242688EB00ABA53B /* SceneDelegate.swift */,
 				40350991242688EB00ABA53B /* ContentView.swift */,
 				40350993242688ED00ABA53B /* Assets.xcassets */,
@@ -73,6 +80,16 @@
 				40350996242688ED00ABA53B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		403509A42426A36B00ABA53B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				403509B22426A85B00ABA53B /* Chango-Regular.ttf */,
+				403509B12426A85B00ABA53B /* Monoton-Regular.ttf */,
+				403509AF2426A84400ABA53B /* BungeeShade-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +151,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4035099A242688ED00ABA53B /* LaunchScreen.storyboard in Resources */,
+				403509B42426A85B00ABA53B /* Chango-Regular.ttf in Resources */,
+				403509B32426A85B00ABA53B /* Monoton-Regular.ttf in Resources */,
+				403509B02426A84400ABA53B /* BungeeShade-Regular.ttf in Resources */,
 				40350997242688ED00ABA53B /* Preview Assets.xcassets in Resources */,
 				40350994242688ED00ABA53B /* Assets.xcassets in Resources */,
 			);
